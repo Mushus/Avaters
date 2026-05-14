@@ -2,3 +2,4 @@
 com.vrchat.*/
 !vpm-manifest.json
 !manifest.json
+!com.vrchat.core.*/
