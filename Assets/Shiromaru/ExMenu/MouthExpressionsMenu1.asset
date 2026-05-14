@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: MouthExpressionsMenu1
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u304A\u3053\u53E3"
+    icon: {fileID: 2800000, guid: 2adb0fae94e3e9f43a096e56a1878393, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u3042\u3093\u3050\u308A"
+    icon: {fileID: 2800000, guid: 5ee349a38a9f08a4fbba035560c41009, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u68D2"
+    icon: {fileID: 2800000, guid: f80289a29651839418512a3c2c38d57c, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u3050\u306D\u3050\u306D\u53E3"
+    icon: {fileID: 2800000, guid: 9f783b49b2913c549a2cdfe0f41dc7cb, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u03C9"
+    icon: {fileID: 2800000, guid: 2e1f7a85300064642abef90752170828, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: O
+    icon: {fileID: 2800000, guid: 87769592e338f474f96aef7ebba91c2d, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u7B11\u53E3"
+    icon: {fileID: 2800000, guid: c276d5a734a20664e8ee837fecb80bab, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306B\u3084\u53E3"
+    icon: {fileID: 2800000, guid: 61ce1cd96f6e91c4c8392b4afa44a453, type: 3}
+    type: 102
+    parameter:
+      name: Mouth
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

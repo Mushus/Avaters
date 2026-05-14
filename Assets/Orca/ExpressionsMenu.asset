@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: ExpressionsMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Face
+    icon: {fileID: 2800000, guid: 0539e25eba635ce41a401580788a2c77, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 8b223d433311da144ba3a03bc19ea4f9, type: 2}
+    subParameters: []
+    labels: []
+  - name: EyeEffect
+    icon: {fileID: 2800000, guid: 0539e25eba635ce41a401580788a2c77, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c50758abb773ea940af237608d97d646, type: 2}
+    subParameters: []
+    labels: []
+  - name: Mouth
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 90abdfffe7ced084db75cb3da7f9096f, type: 2}
+    subParameters: []
+    labels: []
+  - name: Wear
+    icon: {fileID: 2800000, guid: 0ff9333af28b8224893850e22c95e496, type: 3}
+    type: 102
+    parameter:
+      name: Wear
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: MainExpressionsMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Emotion
+    icon: {fileID: 2800000, guid: 9a20b3a6641e1af4e95e058f361790cb, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: b79c0df765034c74db91aacf42a5490c, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30811"
+    icon: {fileID: 2800000, guid: 91b4c4aee56e2484e96611aecd4339d2, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a9e88f6b8adf7234f8711aeeea466ef2, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30812"
+    icon: {fileID: 2800000, guid: 862c9b1399ab2224aad6c5bce188ae2d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 4a44301c258c657408d272170d348aab, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u3081\u30A8\u30D5\u30A7\u30AF\u30C8"
+    icon: {fileID: 2800000, guid: dda4361c81cb262429bb09afc75a3e06, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: daeef121b29dfde4ba4ece7e44bfa340, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u304F\u30611"
+    icon: {fileID: 2800000, guid: d68549126631f7348a87829aedac8638, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 6779f618c27775e4ab89c787437cfe8a, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u304F\u30612"
+    icon: {fileID: 2800000, guid: 91fc01a43a72fed46a4ea2953b3f0111, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: bdeda3651fdd79947bad813cbe5234eb, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u304B\u304A"
+    icon: {fileID: 2800000, guid: 953700a2b23540046b4fb38b3768ec1d, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d9b66138ff654e3418998873f550ec6c, type: 2}
+    subParameters: []
+    labels: []

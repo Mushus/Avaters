@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: EyeExpressionsMenu1
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u304A\u3053"
+    icon: {fileID: 2800000, guid: 3fd1f1bbdaf05fa45b29cb856300b77c, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: b79c0df765034c74db91aacf42a5490c, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u68D2\u76EE"
+    icon: {fileID: 2800000, guid: 7ccb5fe91da93eb44866d99510572bb8, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306A\u3054\u307F"
+    icon: {fileID: 2800000, guid: c80a20774c7fb684bb7d8591c7347be0, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306F\u3061\u3085\u76EE"
+    icon: {fileID: 2800000, guid: 91309e0cde50f5344a7eb130936c2bf6, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306F\u3061\u3085\u76EE(\u7E26)"
+    icon: {fileID: 2800000, guid: 9abfb5ab72c863c44be7a5ddb9e8b68c, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306F\u3061\u3085\u76EE(\u6A2A)"
+    icon: {fileID: 2800000, guid: bbc27b3001b865b48993d98cc8528311, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B8\u30C8\u76EE"
+    icon: {fileID: 2800000, guid: 0653dd982af17a844b37515160939111, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '><'
+    icon: {fileID: 2800000, guid: 91b4c4aee56e2484e96611aecd4339d2, type: 3}
+    type: 102
+    parameter:
+      name: Eye
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
