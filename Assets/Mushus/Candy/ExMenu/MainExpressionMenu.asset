@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: MainExpressionMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Emotion
+    icon: {fileID: 2800000, guid: 9a20b3a6641e1af4e95e058f361790cb, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 26be4af2524df9f4e876e3125b9ceb82, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30811"
+    icon: {fileID: 2800000, guid: 61033acd088f0aa4a907db3cbed053fa, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 522fcdbab622fe2459fdba06d5122ea2, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u30812"
+    icon: {fileID: 2800000, guid: dc8e16b0c74d0c64896e3e132545747f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 2f046aa019e2f8144a84ff37462a9c04, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u304F\u3061"
+    icon: {fileID: 2800000, guid: 2ff1b42621ee6554da50ff4849bfa1c2, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a573f8e4304d6d14484707298fed1263, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u306F\u3070\u305F\u304F"
+    icon: {fileID: 2800000, guid: 13b14f4d29c296b45a3d9a158acb3bf5, type: 3}
+    type: 102
+    parameter:
+      name: FlappingWing
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u5E8A\u8CAB\u901A\u5BFE\u7B56"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: FloorColision
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

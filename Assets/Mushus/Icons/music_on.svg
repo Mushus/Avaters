@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- スピーカー本体（角丸） -->
+  <path d="M18 22 L28 22 L40 12 L40 52 L28 42 L18 42 Z"
+        fill="none" stroke="white" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- 音波（オン状態・丸みを帯びた曲線） -->
+  <path d="M46 26 Q50 32 46 38" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 20 Q56 32 50 44" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: EyeExpressionMenu1
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u304A\u3053"
+    icon: {fileID: 2800000, guid: 8c2fb52b75fa01a45a947658efc897ab, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306D\u3080"
+    icon: {fileID: 2800000, guid: 4d91acaa0d311ba42aba93b380a55d4b, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u3050\u308B\u3050\u308B"
+    icon: {fileID: 2800000, guid: 4e98438417805b34b8c627e913cbcd0b, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B8\u30C8"
+    icon: {fileID: 2800000, guid: d84d26ae00cb33d4ea54073e6ce8e9c1, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: '><'
+    icon: {fileID: 2800000, guid: 61033acd088f0aa4a907db3cbed053fa, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u305F\u308C"
+    icon: {fileID: 2800000, guid: ca0f4d3a5566867408969f5e9a0b10e4, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u3057\u308D"
+    icon: {fileID: 2800000, guid: b123cd0d4d5e0774b86497b02e380eee, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u306B\u3053"
+    icon: {fileID: 2800000, guid: 5edbdbf3f97e8cd4da9fd4870fd5caad, type: 3}
+    type: 102
+    parameter:
+      name: EyeGesture
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
