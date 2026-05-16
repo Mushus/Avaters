@@ -9,10 +9,11 @@
 ```text
 Products/
   <AvatarName>/
-    <AvatarName>.zip      - 配布用パッケージ（srcディレクトリの内容を固めたもの）
-    src/                  - 配布物のソース（展開時のルート）
-      <AvatarName>/       - 展開後に作成されるディレクトリ
-        README.txt        - 利用規約、導入方法、連絡先など
+    <AvatarName>.zip      - 下記の `<AvatarName>/` フォルダをそのまま圧縮したもの
+    <AvatarName>/         - 配布物の内容（展開時の状態）
+      README.txt          - 利用規約、導入方法、連絡先など
+      <AvatarName>.unitypackage - Unityインポート用ファイル
+      src/                - 改造用ソースデータ
         <AvatarName>.blend - Blenderソースファイル（ボーン、ウェイト設定済み）
         Textures/         - 編集用テクスチャデータ（PSD, CLIP, 等）
         Original/         - 元データ形式（FBX, PNG, 等、改変のベースとなるファイル）
@@ -32,13 +33,13 @@ Products/
 - 連絡先
 
 ### 2.2 src ディレクトリ
-- ユーザーが改変を行う際に必要なすべてのソースファイルを含めてください。
-- ファイルサイズを抑えるため、不要なバックアップファイルや中間ファイルは含めないでください。
+- 改造を行うユーザー向けのソースファイルを格納します。
+- `src/` という名称は、Unityパッケージ（`.unitypackage`）の元となる「改造用ソースデータ」を指します。
 
 ### 2.3 booth ディレクトリ
 - 画像ファイルは `1.png`, `2.png` のように、BOOTH上で表示したい順番で命名してください。
 - `Assets/` には、将来的な修正のために使用したツールや素材を格納してください。
 
 ## 3. パッケージ化
-- `src/<AvatarName>/` ディレクトリを zip 圧縮し、`<AvatarName>.zip` として `Products/<AvatarName>/` 直下に配置してください。
-- これにより、ユーザーが展開した際にアバター名のフォルダが作成され、ファイルが散らばるのを防ぎます。
+- `Products/<AvatarName>/<AvatarName>/` フォルダ自体を zip 圧縮し、`<AvatarName>.zip` として `Products/<AvatarName>/` 直下に配置してください。
+- これにより、ユーザーが展開した際にアバター名のフォルダが一つだけ作成され、その中に `README.txt`, `.unitypackage`, `src/` が並んでいる理想的な形になります。

@@ -57,13 +57,12 @@
 Unityプロジェクト内には含めないが、管理が必要なファイルをアバターごとに格納します。
 
 - **`<AvatarName>/`**
-    - `<AvatarName>.zip`: 配布用パッケージ（`src` 配下を圧縮したもの）。
-    - **`src/`**: 配布物のソース（展開時のルート）。
-        - `<AvatarName>/`: 展開後に作成されるディレクトリ。
-            - `README.txt`: 利用規約、導入方法等。
-            - `<AvatarName>.blend`: Blenderソースファイル。
-            - `Textures/`: 編集用テクスチャデータ（PSD, CLIP等）。
-            - `Original/`: 元データ形式（FBX, PNG等）。
+    - `<AvatarName>.zip`: 配布用パッケージ（下記の `<AvatarName>/` フォルダを圧縮したもの）。
+    - **`<AvatarName>/`**: 配布物の内容（展開時の状態）。
+    - `README.txt`: 利用規約、導入方法等。
+    - `<AvatarName>.unitypackage`: Unityインポート用ファイル。
+    - **`src/`**: 改造用ソースデータ（Blender, PSD, 各種書き出しデータ等）。
+        - ※ `src/` 内は外部ストレージ（Google Drive等）との同期を想定し、特定の構造を強制しません。
     - **`booth/`**: BOOTH管理用。
         - `1.png`, `2.png`...: サムネイル画像（順番通りに命名）。
         - `Assets/`: サムネイル作成に使用した素材など。
