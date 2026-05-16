@@ -1,0 +1,122 @@
+Assets\Mushus\CharaCreatorV0\Scripts\Exporter.cs(1,19): error CS0234: The type or namespace name 'Formats' does not exist in the namespace 'UnityEditor' (are you missing an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaAac.cs(6,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(10,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Neko\Animations\AacFX.cs(6,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(10,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaAac.cs(6,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(10,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraAac.cs(6,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(10,22): error CS0234: The type or namespace name 'V0' does not exist in the namespace 'AnimatorAsCode' (are you missing an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(329,16): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(330,91): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(316,16): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(335,16): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(317,91): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(336,91): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaAac.cs(76,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaAac.cs(76,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\AacFX.cs(76,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaAac.cs(90,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaAac.cs(90,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\AacFX.cs(90,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraAac.cs(76,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraAac.cs(90,23): error CS0246: The type or namespace name 'AacFlBase' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(359,16): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(299,16): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(347,16): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(300,91): error CS0246: The type or namespace name 'AacFlFloatParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(330,16): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(365,16): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(362,27): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(350,27): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(333,27): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(368,27): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(184,41): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(178,41): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(167,41): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(198,43): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(198,85): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(198,112): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(198,144): error CS0246: The type or namespace name 'AacFlState' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(204,43): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(204,85): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(204,112): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(204,144): error CS0246: The type or namespace name 'AacFlState' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(297,46): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Tora\Animations\ToraFx.cs(297,64): error CS0246: The type or namespace name 'AacFlBoolParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(303,46): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Shiromaru\Animations\UsaFx.cs(303,64): error CS0246: The type or namespace name 'AacFlBoolParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(187,43): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(187,85): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(187,112): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(187,144): error CS0246: The type or namespace name 'AacFlState' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(184,41): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(267,46): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Mocha\Animations\MochaFx.cs(267,64): error CS0246: The type or namespace name 'AacFlBoolParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(204,43): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(204,85): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(204,112): error CS0246: The type or namespace name 'AacFlIntParameter' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(204,144): error CS0246: The type or namespace name 'AacFlState' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(284,46): error CS0246: The type or namespace name 'AacFlLayer' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Mushus\Neko\Animations\FXHands.cs(284,64): error CS0246: The type or namespace name 'AacFlBoolParameter' could not be found (are you missing a using directive or an assembly reference?)
+

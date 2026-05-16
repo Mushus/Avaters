@@ -1,0 +1,4 @@
+interface:
+  display_name: "VRC Descriptor Setup"
+  short_description: "Attach current VRChat avatar descriptors"
+  default_prompt: "Use $vrc-descriptor-setup to replace old or missing VRChat avatar descriptors on a Unity avatar prefab or scene object."

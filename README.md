@@ -38,7 +38,7 @@ This project stores large binary assets with Git LFS using `lfs-s3`.
 
 ```powershell
 git lfs install
-git config lfs.customtransfer.lfs-s3.path "C:/Users/wyndf/.local/bin/lfs-s3.exe"
+git config lfs.customtransfer.lfs-s3.path "lfs-s3.exe"
 git config lfs.customtransfer.lfs-s3.args "--bucket avaters-863657440723-ap-northeast-1-an --region ap-northeast-1 --endpoint https://s3.ap-northeast-1.amazonaws.com"
 git config lfs.standalonetransferagent lfs-s3
 ```

@@ -9,8 +9,9 @@
 - サンプルアップロード用の Variant とシーンは `Assets/Mushus/<Package>Dev/` に置く。
 - Material は基本 `VRChat/Mobile/StandardToon` を使う。
 - Texture 品質差は別ファイルを量産せず、Platform Override で管理する。
-- 無印、Quest、Mobile 向けの Prefab/Material は、別プロダクトではなく同じ配布パッケージに同梱する。
-- 新規命名では `Quest` より `Mobile` を使う。既存の `Quest` 名は参照が安定するまで無理に改名しない。
+- 配布は無印版と Mobile 版の 2 系統を基本にし、どちらも同じ配布パッケージに同梱する。
+- 新規命名では `Quest` を使わず `Mobile` を使う。既存の `Quest` 名は参照が安定するまで無理に改名しない。
+- 新規命名では `LP` より `LowPoly` を使う。
 - `LP` / `LowPoly` は軽量版の別プロダクトとして扱う。名前が近くても無印版へ統合しない。
 - `.meta` は Unity の参照維持に必須なので、ファイル移動は Unity Editor 上か、`.meta` とセットで行う。
 
@@ -22,11 +23,9 @@
 Assets/Mushus/<Package>/
   Animations/
   Controllers/
-  Expressions/
-  ExMenu/
-  Icons/
+  Expressions/ (ExMenu, Parameters, 関連Iconsをここに集約)
   Materials/
-  Models/ or FBX/
+  Models/
   Prefabs/
   Scripts/
   Shaders/
@@ -36,9 +35,11 @@ Assets/Mushus/<Package>/
 標準の開発・サンプルパッケージ:
 
 ```text
-Assets/Mushus/<Package>Dev/
+  Animations/ (AAC生成スクリプト等)
   Prefabs/
   Scenes/
+    Sample.unity (アップロード確認用)
+    AAC.unity (AAC作成・編集用)
 ```
 
 `<Package>Dev/Prefabs/` には、配布 Prefab を元にした sample/upload 用 Variant だけを置く。元になる配布 Prefab は `<Package>/Prefabs/` に置く。
@@ -56,7 +57,7 @@ Assets/Mushus/<Package>Dev/
 `Assets/Mushus/<Package>/Prefabs/` に置く Prefab は次を満たす。
 
 - VRChat Avatar Descriptor が設定されている。
-- Quest/Mobile 向けに破綻しない Material と Texture 設定になっている。
+- Mobile 向けに破綻しない Material と Texture 設定になっている。
 - 無印版と Mobile 版を配布する場合、どちらも同じ `<Package>/Prefabs/` に置く。
 - Mobile 版のファイル名は新規作成分から `<Package>Mobile.prefab` のようにする。
 - サンプルシーン専用の Light、Camera、床、アップロード補助 Object を含めない。
@@ -66,7 +67,8 @@ Assets/Mushus/<Package>Dev/
 
 `Assets/Mushus/<Package>Dev/` はアップロード確認とサンプル維持の場所とする。
 
-- `Scenes/` には確認用シーンを置く。
+- `Scenes/` には確認用シーンを置く。アップロード用 (`Sample`) と AAC作成用 (`AAC`) を分ける。
+- `Animations/` には AAC (Animator As Code) の生成スクリプトなどの開発用資産を置く。配布用フォルダには含めない。
 - `Prefabs/` には配布 Prefab の Variant を置く。
 - Dev 側から配布側へ参照してよい。
 - 配布側から Dev 側へ参照してはいけない。
@@ -97,7 +99,7 @@ Assets/Mushus/<Package>Dev/
 | `<Package>/Prefabs/*.prefab` があり、現行販売・配布対象 | `Assets/Mushus/<Package>/` |
 | シーンやアップロード Variant が主 | `Assets/Mushus/<Package>Dev/` |
 | `<Package>Sample` | `Assets/Mushus/<Package>Dev/` へ移行候補 |
-| `<Package>Quest` / `<Package>Mobile` 相当 | 同じ `<Package>` 配下の Mobile 対応版として整理 |
+| `<Package>Quest` / `<Package>Mobile` 相当 | 同じ `<Package>` 配下の Mobile 対応版として整理。最終命名は `Mobile` |
 | `<Package>LP` / `<Package>LowPoly` | 別プロダクトとして維持 |
 | `Backup`, `FromDra`, タイムスタンプ付き | 内容確認まで `_conflicts` または一時保留 |
 | 参照切れが多いが過去版として必要 | `<Package>V0/` |

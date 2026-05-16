@@ -3,11 +3,11 @@
 
 #if UNITY_EDITOR
 using System;
-using AnimatorAsCode.V0;
+using AnimatorAsCode.V1;
+using AnimatorAsCode.V1.VRCDestructiveWorkflow;
 using UnityEditor;
 using UnityEngine;
 using VRC.SDK3.Avatars.Components;
-using static UnityEditor.Progress;
 using AnimatorController = UnityEditor.Animations.AnimatorController;
 
 namespace Mushus.AAC.FX
@@ -37,11 +37,10 @@ namespace Mushus.AAC.FX
 
         public static AacFlBase AnimatorAsCode(string systemName, VRCAvatarDescriptor avatar, AnimatorController assetContainer, string assetKey)
         {
-            var aac = AacV0.Create(new AacConfiguration
+            var aac = AacV1.Create(new AacConfiguration
             {
                 SystemName = systemName,
                 // In the examples, we consider the avatar to be also the animator root.
-                AvatarDescriptor = avatar,
                 // You can set the animator root to be different than the avatar descriptor,
                 // if you want to apply an animator to a different avatar without redefining
                 // all of the game object references which were relative to the original avatar.
@@ -54,9 +53,10 @@ namespace Mushus.AAC.FX
                 // defined in DefaultValueRoot.
                 DefaultValueRoot = avatar.transform,
                 AssetContainer = assetContainer,
+                ContainerMode = AacConfiguration.Container.Everything,
                 AssetKey = assetKey,
                 DefaultsProvider = new AacDefaultsProvider(writeDefaults: false)
-            });
+            }.WithAvatarDescriptor(avatar));
             aac.ClearPreviousAssets();
             return aac;
         }

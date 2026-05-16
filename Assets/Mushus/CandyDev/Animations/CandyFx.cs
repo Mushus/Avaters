@@ -7,9 +7,10 @@ using VRC.SDK3.Avatars.Components;
 using UnityEditor;
 using UnityEditor.Animations;
 using System.Collections.Generic;
-using AnimatorAsCode.V0;
+using AnimatorAsCode.V1;
+using AnimatorAsCode.V1.VRC;
+using AnimatorAsCode.V1.VRCDestructiveWorkflow;
 using Mushus.AAC.FX;
-using static VRC.SDKBase.VRC_AvatarDescriptor;
 
 namespace Mushus.Candy.FX
 {
@@ -88,7 +89,7 @@ namespace Mushus.Candy.FX
             DefineGestureLayer(fx, handsIndex);
 
             var eyeLayer = aac.CreateSupportingFxLayer("Eye");
-            DefineAnimationLayer(eyeLayer, eyeAnims, gestureEye, eyeGesture, handsIndex, AacFlState.TrackingElement.Eyes);
+            DefineAnimationLayer(eyeLayer, eyeAnims, gestureEye, eyeGesture, handsIndex, AacAv3.Av3TrackingElement.Eyes);
 
             var mouthLayer = aac.CreateSupportingFxLayer("Mouth");
             DefineAnimationLayer(mouthLayer, mouthAnims, gestureMouth, mouthGesture, handsIndex, null);
@@ -117,12 +118,12 @@ namespace Mushus.Candy.FX
             }
         }
 
-        private void DefineAnimationLayer(AacFlLayer layer, Animation[] animations, int[,] gestureMap, AacFlIntParameter exParam, AacFlIntParameter handsIndex, AacFlState.TrackingElement? trackingElement)
+        private void DefineAnimationLayer(AacFlLayer layer, Animation[] animations, int[,] gestureMap, AacFlIntParameter exParam, AacFlIntParameter handsIndex, AacAv3.Av3TrackingElement? trackingElement)
         {
             var entry = layer.NewState("Entry");
             if (trackingElement != null)
             {
-                entry.TrackingTracks((AacFlState.TrackingElement)trackingElement);
+                entry.TrackingTracks((AacAv3.Av3TrackingElement)trackingElement);
             }
 
             var yLength = gestureMap.GetLength(0);
@@ -134,11 +135,11 @@ namespace Mushus.Candy.FX
                     .WithAnimation(animation.clip);
                 if (trackingElement != null)
                 {
-                    state.TrackingAnimates((AacFlState.TrackingElement)trackingElement);
+                    state.TrackingAnimates((AacAv3.Av3TrackingElement)trackingElement);
                 }
                 if (animation.motionTime != null)
                 {
-                    state.MotionTime((AacFlFloatParameter)animation.motionTime);
+                    state.WithMotionTime((AacFlFloatParameter)animation.motionTime);
                 }
 
                 var fromEntryTransition = entry.TransitionsTo(state)
