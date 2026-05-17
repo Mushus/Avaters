@@ -8,17 +8,18 @@ namespace Mushus.DistributionTools
     [CustomEditor(typeof(AvatarDistributionSettings))]
     public class AvatarDistributionSettingsEditor : Editor
     {
-        [MenuItem("GameObject/Mushus/Distribution Settings", false, 10)]
+        [MenuItem("GameObject/Mushus/Avatar Distribution Settings", false, 0)]
         public static void CreateDistributionSettings(MenuCommand menuCommand)
         {
-            GameObject obj = new GameObject("DistributionSettings");
+            GameObject obj = new GameObject("AvatarDistributionSettings");
             var settings = obj.AddComponent<AvatarDistributionSettings>();
             
             // シーン内のアバターを自動検出して設定
             var descriptor = FindFirstObjectByType<VRC.SDK3.Avatars.Components.VRCAvatarDescriptor>();
             if (descriptor != null)
             {
-                settings.TargetAvatar = PrefabUtility.GetCorrespondingObjectFromSource(descriptor.gameObject) ?? descriptor.gameObject;
+                settings.TargetAvatar = descriptor.gameObject;
+                obj.name = $"{descriptor.gameObject.name}_DistributionSettings";
             }
 
             GameObjectUtility.SetParentAndAlign(obj, menuCommand.context as GameObject);

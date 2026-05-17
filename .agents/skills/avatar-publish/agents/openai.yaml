@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avatar Publish"
+  short_description: "VRChat avatar publish prep and SDK automation."
+  default_prompt: "Prepare, validate, and automate a VRChat avatar upload for Windows, Android, and iOS."

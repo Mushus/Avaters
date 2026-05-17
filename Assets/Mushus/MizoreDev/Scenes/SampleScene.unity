@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18137394, g: 0.22699326, b: 0.3073773, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,13 +98,13 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,9 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -126,8 +128,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
+      propertyPath: blueprintId
+      value: avtr_11a5f84e-29ed-408e-9499-739c743df8a5
+      objectReference: {fileID: 0}
     - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
       propertyPath: fallbackStatus
       value: 1
@@ -203,12 +210,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 1d7e923de5034904499347649a156761, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
 --- !u!1001 &616236464
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
@@ -286,6 +297,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: e9b8e2b8893258b4db85426f263407d7, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
 --- !u!1 &912897576
 GameObject:
@@ -363,6 +377,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &912897578
@@ -372,12 +387,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912897576}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.89006764, y: -0.10054071, z: 0.23849288, w: 0.37522313}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 134.28299, y: -30, z: 0}
 --- !u!114 &1392907438 stripped
 MonoBehaviour:
@@ -430,18 +446,20 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608181869}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.051036984, y: -0.35132694, z: -6.471603}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1726502098
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
@@ -523,12 +541,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 52364e9213b28e442952ac5a1f19025e, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
 --- !u!1001 &1773477256
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
@@ -606,6 +628,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: d4adc304659de274aa3f82c125d653cf, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
 --- !u!1 &1963015756
 GameObject:
@@ -647,9 +672,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -683,20 +716,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963015756}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7982838585497982207
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1392907437, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
+      propertyPath: blueprintId
+      value: avtr_11a5f84e-29ed-408e-9499-739c743df8a5
+      objectReference: {fileID: 0}
     - target: {fileID: 7064411376120806662, guid: 7c07b4f414608c8498893320e6b340ca,
         type: 3}
       propertyPath: m_Name
@@ -768,4 +807,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 5ce21f9f9a2ec164fb1a5447b3b474b4, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c07b4f414608c8498893320e6b340ca, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1963015759}
+  - {fileID: 912897578}
+  - {fileID: 1608181871}
+  - {fileID: 7982838585497982207}
+  - {fileID: 616236464}
+  - {fileID: 1773477256}
+  - {fileID: 511308929}
+  - {fileID: 1726502098}

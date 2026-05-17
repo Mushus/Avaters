@@ -1,0 +1,26 @@
+{
+  "avatar": {
+    "name": "【サンプル】ベティー",
+    "description": "#256fes 向けに勢いで作ったものになります。\n\n配布中: https://mushus.booth.pm/items/2078096",
+    "releaseStatus": "public",
+    "thumbnail": "Assets/Mushus/Betty/Textures/Thumbnails.jpg"
+  },
+  "vrchat": {
+    "avatarId": "",
+    "tags": []
+  },
+  "platforms": {
+    "windows": {
+      "scene": "Assets/Mushus/BettyDev/Scenes/betty.unity",
+      "prefab": "Assets/Mushus/Betty/Prefabs/Betty.prefab"
+    },
+    "android": {
+      "scene": "Assets/Mushus/BettyDev/Scenes/betty.unity",
+      "prefab": "Assets/Mushus/Betty/Prefabs/Betty.prefab"
+    },
+    "ios": {
+      "scene": "Assets/Mushus/BettyDev/Scenes/betty.unity",
+      "prefab": "Assets/Mushus/Betty/Prefabs/Betty.prefab"
+    }
+  }
+}

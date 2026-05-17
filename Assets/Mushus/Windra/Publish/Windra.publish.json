@@ -1,0 +1,26 @@
+{
+  "avatar": {
+    "name": "WindraLowPoly",
+    "description": "Windra low-poly sample avatar. Prepared for Windows, Android, and iOS upload validation.",
+    "releaseStatus": "private",
+    "thumbnail": "Assets/Mushus/Windra/Textures/WindraLpTex.png"
+  },
+  "vrchat": {
+    "avatarId": "",
+    "tags": []
+  },
+  "platforms": {
+    "windows": {
+      "scene": "Assets/Mushus/WindraDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/Windra/Prefabs/AvaterPrefab.prefab"
+    },
+    "android": {
+      "scene": "Assets/Mushus/WindraDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/Windra/Prefabs/AvaterPrefab.prefab"
+    },
+    "ios": {
+      "scene": "Assets/Mushus/WindraDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/Windra/Prefabs/AvaterPrefab.prefab"
+    }
+  }
+}

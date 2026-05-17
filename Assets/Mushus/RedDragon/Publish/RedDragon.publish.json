@@ -1,0 +1,26 @@
+{
+  "avatar": {
+    "name": "RedDragonLowPoly",
+    "description": "RedDragon low-poly sample avatar. Prepared for Windows, Android, and iOS upload validation.",
+    "releaseStatus": "private",
+    "thumbnail": "Assets/Mushus/RedDragon/Textures/RedDragonTex.png"
+  },
+  "vrchat": {
+    "avatarId": "",
+    "tags": []
+  },
+  "platforms": {
+    "windows": {
+      "scene": "Assets/Mushus/RedDragonDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/RedDragon/Prefabs/AvaterPrefab.prefab"
+    },
+    "android": {
+      "scene": "Assets/Mushus/RedDragonDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/RedDragon/Prefabs/AvaterPrefab.prefab"
+    },
+    "ios": {
+      "scene": "Assets/Mushus/RedDragonDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/RedDragon/Prefabs/AvaterPrefab.prefab"
+    }
+  }
+}

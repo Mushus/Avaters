@@ -95,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 13700000, guid: e23d71b3e0e53454eb6c61328602a5c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 27331425da1e9794da45ec6b291d5d4c, type: 2}
+      objectReference: {fileID: 2100000, guid: 91dae70218bff4d4a911bdc36dc258c2, type: 2}
     - target: {fileID: 13700000, guid: e23d71b3e0e53454eb6c61328602a5c5, type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 25
@@ -116,10 +116,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3952507001814421810}
-    - targetCorrespondingSourceObject: {fileID: 100100, guid: e23d71b3e0e53454eb6c61328602a5c5,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3393463866731583690}
   m_SourcePrefab: {fileID: 100100000, guid: e23d71b3e0e53454eb6c61328602a5c5, type: 3}
 --- !u!1 &99410575024471814 stripped
 GameObject:
@@ -269,10 +265,9 @@ MonoBehaviour:
     isDefault: 0
   - isEnabled: 0
     type: 5
-    animatorController: {fileID: 9100000, guid: 773c91feaa5df1b49b5c624dd425ccf7,
-      type: 2}
+    animatorController: {fileID: 0}
     mask: {fileID: 0}
-    isDefault: 0
+    isDefault: 1
   specialAnimationLayers:
   - isEnabled: 0
     type: 6
@@ -362,50 +357,50 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 99410575024956090}
+    radius: 0.00077107415
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: -3.770838e-12, y: 0.00086702325, z: -0.000015816202}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    transform: {fileID: 99410575024956038}
+    radius: 0.0011682939
+    height: 0.002561555
+    position: {x: -1.188973e-11, y: -0.000098302946, z: -0.000049869217}
+    rotation: {x: 0.019472003, y: 0, z: -0.0000000046425024, w: 0.9998104}
   collider_footR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 99410575024956122}
+    radius: 0.0001334056
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 99410575024956118}
+    radius: 0.0001334056
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 99410575024956086}
+    radius: 0.0000992095
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 0.0000023850255, y: 0.000099181576, z: 0.00000005647781}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 99410575024956082}
+    radius: 0.00009920964
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: -0.0000023845573, y: 0.000099181, z: 0.00000005664618}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexL:
     isMirrored: 1
@@ -485,23 +480,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 1
   completedSDKPipeline: 0
-  blueprintId: avtr_e45d375e-0b7d-4441-bd87-ecd966686334
+  blueprintId: 
   contentType: 0
   assetBundleUnityVersion: 
   fallbackStatus: 0
---- !u!114 &3393463866731583690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &99410575024956038 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99410575024471814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &99410575024956070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400036, guid: e23d71b3e0e53454eb6c61328602a5c5,
@@ -511,6 +499,36 @@ Transform:
 --- !u!4 &99410575024956074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400040, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99410575024956082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400048, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99410575024956086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400052, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99410575024956090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400056, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99410575024956118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400084, guid: e23d71b3e0e53454eb6c61328602a5c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 99410575024568322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &99410575024956122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400088, guid: e23d71b3e0e53454eb6c61328602a5c5,
     type: 3}
   m_PrefabInstance: {fileID: 99410575024568322}
   m_PrefabAsset: {fileID: 0}

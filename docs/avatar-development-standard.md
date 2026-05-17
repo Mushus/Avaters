@@ -27,6 +27,7 @@ Assets/Mushus/<Package>/
   Materials/
   Models/
   Prefabs/
+  Scenes/ (Blueprint IDをクリアしたクリーンなSampleScene.unityを置く)
   Scripts/
   Shaders/
   Textures/
@@ -38,11 +39,10 @@ Assets/Mushus/<Package>/
   Animations/ (AAC生成スクリプト等)
   Prefabs/
   Scenes/
-    Sample.unity (アップロード確認用)
     AAC.unity (AAC作成・編集用)
 ```
 
-`<Package>Dev/Prefabs/` には、配布 Prefab を元にした sample/upload 用 Variant だけを置く。元になる配布 Prefab は `<Package>/Prefabs/` に置く。
+`<Package>Dev/Prefabs/` には、個人的なアップロード設定を含むVariantなどを置く。配布するPrefabは `<Package>/Prefabs/` に置く。
 
 ## 命名
 
@@ -65,11 +65,11 @@ Assets/Mushus/<Package>/
 
 ## Dev 側の条件
 
-`Assets/Mushus/<Package>Dev/` はアップロード確認とサンプル維持の場所とする。
+`Assets/Mushus/<Package>Dev/` は個人的なアップロード設定の保存と、AAC等の開発資産の維持場所とする。
 
-- `Scenes/` には確認用シーンを置く。アップロード用 (`Sample`) と AAC作成用 (`AAC`) を分ける。
+- `Scenes/` には開発用シーンを置く（AAC作成用の `AAC.unity` など）。配布用の確認シーンは `<Package>/Scenes/` 側に置く。
 - `Animations/` には AAC (Animator As Code) の生成スクリプトなどの開発用資産を置く。配布用フォルダには含めない。
-- `Prefabs/` には配布 Prefab の Variant を置く。
+- `Prefabs/` には個人のアップロード用設定等を含んだ Variant を置く。
 - Dev 側から配布側へ参照してよい。
 - 配布側から Dev 側へ参照してはいけない。
 

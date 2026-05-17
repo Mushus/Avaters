@@ -16,7 +16,7 @@ public class AvatarCameraCaptureEditor : Editor
     SerializedProperty normalizedTime;
     SerializedProperty layerIndex;
 
-    void OnEnable()
+    void OnEnable() 
     {
         outputPath = serializedObject.FindProperty("outputPath");
         width = serializedObject.FindProperty("width");

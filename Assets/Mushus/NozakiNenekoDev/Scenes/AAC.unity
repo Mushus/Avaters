@@ -1334,6 +1334,78 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 1}
   bonesAsSpheres: 0
   globalCollisionFlags: 0
+--- !u!1001 &1131818800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1538002213, guid: 2752f35c02c9df34ab3a8b970a0c7bc4, type: 3}
+      propertyPath: blueprintId
+      value: avtr_b3332784-5782-4ec5-b30c-aa8c83dd89a7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790001287800797986, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3311205445822046616, guid: 2752f35c02c9df34ab3a8b970a0c7bc4,
+        type: 3}
+      propertyPath: m_Name
+      value: NekoAvater
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2752f35c02c9df34ab3a8b970a0c7bc4, type: 3}
 --- !u!1 &1170663403 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6687545001259741124, guid: 87a3b255173b90a49aa5b221531fc643,
@@ -7440,3 +7512,4 @@ SceneRoots:
   - {fileID: 1444506295}
   - {fileID: 1593581032}
   - {fileID: 2031317008}
+  - {fileID: 1131818800}
