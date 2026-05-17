@@ -186,9 +186,11 @@ namespace Mushus.CaptureTools
                 return cam;
             }
 
-            if (settings.FrontCamera == null) settings.FrontCamera = CreateCam("FrontCamera", new Vector3(0, eyeHeight, 5.0f), new Vector3(0, 180, 0), 1.0f);
-            if (settings.BackCamera == null) settings.BackCamera = CreateCam("BackCamera", new Vector3(0, center.y, -5.0f), new Vector3(0, 0, 0), 1.0f);
-            if (settings.SideCamera == null) settings.SideCamera = CreateCam("SideCamera", new Vector3(-5.0f, center.y, 0), new Vector3(0, 90, 0), 1.0f);
+            float bodyCameraHeight = center.y;
+
+            if (settings.FrontCamera == null) settings.FrontCamera = CreateCam("FrontCamera", new Vector3(0, bodyCameraHeight, 5.0f), new Vector3(0, 180, 0), 1.0f);
+            if (settings.BackCamera == null) settings.BackCamera = CreateCam("BackCamera", new Vector3(0, bodyCameraHeight, -5.0f), new Vector3(0, 0, 0), 1.0f);
+            if (settings.SideCamera == null) settings.SideCamera = CreateCam("SideCamera", new Vector3(-5.0f, bodyCameraHeight, 0), new Vector3(0, 90, 0), 1.0f);
             if (settings.FaceCamera == null) settings.FaceCamera = CreateCam("FaceCamera", new Vector3(0, eyeHeight, 2.0f), new Vector3(0, 180, 0), 0.15f);
 
             EditorUtility.SetDirty(settings);

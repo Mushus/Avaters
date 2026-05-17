@@ -76,3 +76,11 @@ crashlytics-build.properties
 /Assets/XR
 
 .uloop/
+
+.playwright
+.playwright-cli
+
+# Local automation secrets
+.env
+.env.*
+!.env.example

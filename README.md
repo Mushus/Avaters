@@ -50,3 +50,26 @@ git config lfs.standalonetransferagent lfs-s3
 - Public access: blocked
 - Encryption: SSE-S3
 - Lifecycle: objects of 128 KB or larger transition to `INTELLIGENT_TIERING` immediately
+
+### 必要なツール (Dependencies)
+
+このプロジェクトでは、アバターのビルドや自動化スクリプトのために以下のツールに暗黙的に依存しています。
+
+#### 1. Unity / VRChat 開発環境
+- **Unity**: `2022.3.22f1` (ProjectSettingsに準拠)
+- **VRChat Creator Companion (VCC)**: VRChat SDK (Base/Avatars) および VPMパッケージの管理に必要
+- **Animator As Code (AAC) V1**: アバターのアニメーション構築自動化ツール (VPMパッケージ)
+
+#### 2. 画像処理・サムネイル自動生成 (Python)
+Unityエディタ拡張（`AvatarThumbnailGenerator`等）からPythonスクリプトを呼び出して画像を生成するため必要です。
+- **Python 3.x**
+- **Pillow (PIL)**: 画像処理ライブラリ
+  ```powershell
+  pip install Pillow
+  ```
+
+#### 3. その他のユーティリティ (Node.js)
+  ```powershell
+  # Node.js と npm がインストールされていること
+  npm install -g @jackwener/opencli
+  ```

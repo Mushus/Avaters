@@ -1,0 +1,26 @@
+{
+  "avatar": {
+    "name": "【サンプル】ホイップ（ろーぽりバージョン）",
+    "description": "オリジナルキャラクターのホイップのローポリバージョンです。\n\n無料配布中: https://mushus.booth.pm/items/3691363",
+    "releaseStatus": "public",
+    "thumbnail": "Assets/Mushus/WhipLowPoly/Textures/1.png"
+  },
+  "vrchat": {
+    "avatarId": "",
+    "tags": []
+  },
+  "platforms": {
+    "windows": {
+      "scene": "Assets/Mushus/WhipLowPolyDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/WhipLowPoly/Prefabs/WhipLp.prefab"
+    },
+    "android": {
+      "scene": "Assets/Mushus/WhipLowPolyDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/WhipLowPoly/Prefabs/WhipLp.prefab"
+    },
+    "ios": {
+      "scene": "Assets/Mushus/WhipLowPolyDev/Scenes/SampleScene.unity",
+      "prefab": "Assets/Mushus/WhipLowPoly/Prefabs/WhipLp.prefab"
+    }
+  }
+}

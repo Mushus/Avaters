@@ -23,6 +23,7 @@ namespace Mushus.EditorTools
         private const string DefaultAvatarName = "Windra";
         private const string RedDragonAvatarName = "RedDragon";
         private const string BettyAvatarName = "Betty";
+        private const string WhipLowPolyAvatarName = "WhipLowPoly";
         private const string ReportDirectory = "Products/_publish_reports";
         private const string PublishFolderName = "Publish";
 
@@ -44,6 +45,12 @@ namespace Mushus.EditorTools
             PrepareSample(BettyAvatarName);
         }
 
+        [MenuItem("Mushus/Avatar Publish/Prepare WhipLowPoly Sample")]
+        public static void PrepareWhipLowPolySample()
+        {
+            PrepareSample(WhipLowPolyAvatarName);
+        }
+
         [MenuItem("Mushus/Avatar Publish/Validate Windra Sample")]
         public static void ValidateWindraSample()
         {
@@ -62,6 +69,12 @@ namespace Mushus.EditorTools
             ValidateSample(BettyAvatarName, true);
         }
 
+        [MenuItem("Mushus/Avatar Publish/Validate WhipLowPoly Sample")]
+        public static void ValidateWhipLowPolySample()
+        {
+            ValidateSample(WhipLowPolyAvatarName, true);
+        }
+
         [MenuItem("Mushus/Avatar Publish/Write Windra SDK Metadata")]
         public static void WriteWindraSdkMetadata()
         {
@@ -78,6 +91,12 @@ namespace Mushus.EditorTools
         public static void WriteBettySdkMetadata()
         {
             WriteSdkMetadata(BettyAvatarName);
+        }
+
+        [MenuItem("Mushus/Avatar Publish/Write WhipLowPoly SDK Metadata")]
+        public static void WriteWhipLowPolySdkMetadata()
+        {
+            WriteSdkMetadata(WhipLowPolyAvatarName);
         }
 
         [MenuItem("Mushus/Avatar Publish/Experimental Upload Windra Multi-Platform")]
@@ -114,6 +133,18 @@ namespace Mushus.EditorTools
         public static async void ContinueBettyMultiPlatformUpload()
         {
             await ExperimentalUploadMultiPlatform(BettyAvatarName, false);
+        }
+
+        [MenuItem("Mushus/Avatar Publish/Experimental Upload WhipLowPoly Multi-Platform")]
+        public static async void ExperimentalUploadWhipLowPolyMultiPlatform()
+        {
+            await ExperimentalUploadMultiPlatform(WhipLowPolyAvatarName);
+        }
+
+        [MenuItem("Mushus/Avatar Publish/Continue WhipLowPoly Multi-Platform Upload")]
+        public static async void ContinueWhipLowPolyMultiPlatformUpload()
+        {
+            await ExperimentalUploadMultiPlatform(WhipLowPolyAvatarName, false);
         }
 
         [MenuItem("Mushus/Avatar Publish/Open VRChat SDK Builder")]
@@ -286,7 +317,6 @@ namespace Mushus.EditorTools
                     return;
                 }
 
-                instance.name = GetSampleAvatarObjectName(avatarName, profile);
                 descriptor = instance.GetComponent<VRCAvatarDescriptor>();
             }
 
@@ -296,7 +326,6 @@ namespace Mushus.EditorTools
                 return;
             }
 
-            descriptor.gameObject.name = GetSampleAvatarObjectName(avatarName, profile);
             if (descriptor.transform.parent != null)
             {
                 var prefabRoot = PrefabUtility.GetOutermostPrefabInstanceRoot(descriptor.gameObject);
@@ -1105,16 +1134,6 @@ namespace Mushus.EditorTools
                 .Select(path => path.Replace("\\", "/"))
                 .OrderBy(path => Path.GetFileNameWithoutExtension(path).Contains(avatarName) ? 0 : 1)
                 .FirstOrDefault();
-        }
-
-        private static string GetSampleAvatarObjectName(string avatarName, PublishProfile profile)
-        {
-            if (!string.IsNullOrWhiteSpace(profile.avatar.name))
-            {
-                return profile.avatar.name;
-            }
-
-            return GetSampleAvatarObjectName(avatarName);
         }
 
         private static string GetSampleAvatarObjectName(string avatarName)

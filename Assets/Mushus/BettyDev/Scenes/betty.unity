@@ -238,7 +238,7 @@ PrefabInstance:
     - target: {fileID: 7239211044883175307, guid: 92390cde78f84fd43ba55aa97c7c225d,
         type: 3}
       propertyPath: m_Name
-      value: "\u3010\u30B5\u30F3\u30D7\u30EB\u3011\u30D9\u30C6\u30A3\u30FC"
+      value: Betty
       objectReference: {fileID: 0}
     - target: {fileID: 7239211044883598251, guid: 92390cde78f84fd43ba55aa97c7c225d,
         type: 3}

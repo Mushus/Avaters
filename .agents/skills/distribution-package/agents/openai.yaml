@@ -1,0 +1,4 @@
+interface:
+  display_name: "Distribution Package"
+  short_description: "Prepare and verify Products avatar distribution files."
+  default_prompt: "Use $distribution-package to inspect or prepare Products/<AvatarName> deliverables: README, unitypackage, zip, src files, BOOTH images, and packaging verification."

@@ -210,21 +210,21 @@ MonoBehaviour:
   VisemeSkinnedMesh: {fileID: 1283813023527727582}
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes:
-  - M_sil
-  - M_PP
-  - M_FF
-  - M_TH
-  - M_DD
-  - M_kk
-  - M_CH
-  - M_SS
-  - M_nn
-  - M_RR
-  - M_aa
-  - M_E
-  - M_I
-  - M_O
-  - M_U
+  - vrc.v_sil
+  - vrc.v_pp
+  - vrc.v_ff
+  - vrc.v_th
+  - vrc.v_dd
+  - vrc.v_kk
+  - vrc.v_ch
+  - vrc.v_ss
+  - vrc.v_nn
+  - vrc.v_rr
+  - vrc.v_aa
+  - vrc.v_e
+  - vrc.v_ih
+  - vrc.v_oh
+  - vrc.v_ou
   unityVersion: 2018.4.20f1
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -352,50 +352,50 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1283813023533031650}
+    radius: 0.034522027
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 1.4726849e-14, y: 0.03630963, z: 0.000000029802322}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
+    transform: {fileID: 1283813023533031672}
+    radius: 0.0523061
+    height: 0.2733759
+    position: {x: 3.5527154e-15, y: 0.015622482, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1283813023533031784}
+    radius: 0.0054127695
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1283813023533031788}
+    radius: 0.005412769
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1283813023533031652}
+    radius: 0.011033906
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: -0.000028972569, y: 0.011033784, z: -0.000054579657}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1283813023533031654}
+    radius: 0.011033902
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 0.000028932358, y: 0.011033743, z: -0.00005457684}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexL:
     isMirrored: 1
@@ -461,6 +461,30 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!4 &1283813023533031650 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400028, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283813023533031652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400026, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283813023533031654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400024, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283813023533031672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1283813023533031766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400168, guid: 84e6786310f3af84e9f8af98bdc30d0c,
@@ -470,6 +494,18 @@ Transform:
 --- !u!4 &1283813023533031770 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400164, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283813023533031784 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400150, guid: 84e6786310f3af84e9f8af98bdc30d0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283813023532907134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283813023533031788 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400146, guid: 84e6786310f3af84e9f8af98bdc30d0c,
     type: 3}
   m_PrefabInstance: {fileID: 1283813023532907134}
   m_PrefabAsset: {fileID: 0}

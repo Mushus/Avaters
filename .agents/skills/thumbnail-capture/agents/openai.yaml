@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thumbnail/Capture"
+  short_description: "Generate and verify avatar screenshots and BOOTH thumbnails."
+  default_prompt: "Use $thumbnail-capture to generate, process, and verify avatar capture images, BOOTH thumbnails, and expression tile images using the repository tooling."

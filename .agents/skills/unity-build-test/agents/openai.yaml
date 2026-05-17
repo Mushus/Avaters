@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Build/Test"
+  short_description: "Compile Unity, inspect errors, run tests, and report failures."
+  default_prompt: "Use $unity-build-test to run the repository verification loop: compile, inspect Unity Console compiler errors, run Unity tests, diagnose failures, and report the result."

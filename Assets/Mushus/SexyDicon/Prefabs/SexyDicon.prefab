@@ -259,50 +259,50 @@ MonoBehaviour:
   collider_head:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1072198715995247844}
+    radius: 0.27961922
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: -0.34952432, z: -0.000000029802322}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
-    height: 0
-    position: {x: 0, y: 0, z: 0}
+    transform: {fileID: 1072198715995247850}
+    radius: 0.23556383
+    height: 0.47112766
+    position: {x: 1.7763568e-14, y: -0.043518253, z: 0.000000074505806}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1072198715995247812}
+    radius: 0.081659496
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_footL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1072198715995247808}
+    radius: 0.08165949
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handR:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1072198715995247840}
+    radius: 0.02783199
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: 0.00000035773235, y: 0.027831886, z: -0.000000042067878}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_handL:
     isMirrored: 1
     state: 0
-    transform: {fileID: 0}
-    radius: 0
+    transform: {fileID: 1072198715995247852}
+    radius: 0.02783199
     height: 0
-    position: {x: 0, y: 0, z: 0}
+    position: {x: -0.00000035773235, y: 0.027831886, z: -0.000000042067878}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_fingerIndexL:
     isMirrored: 1
@@ -368,3 +368,39 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!4 &1072198715995247808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400042, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072198715995247812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400046, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072198715995247840 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400010, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072198715995247844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400014, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072198715995247850 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1072198715995247852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: 7954518bc7e2278449a250dab1b4e365,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072198715994852970}
+  m_PrefabAsset: {fileID: 0}

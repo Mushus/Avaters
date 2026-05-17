@@ -1,0 +1,3 @@
+display_name: BOOTH Product Manager
+short_description: Safely automate BOOTH product drafts, edits, images, thumbnails, and files with OpenCLI.
+default_prompt: Use OpenCLI to operate BOOTH product admin pages safely. Keep test products unpublished, verify each field or upload, and never publish without explicit approval.

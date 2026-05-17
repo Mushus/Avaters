@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avatar Structure Audit"
+  short_description: "Check and organize Assets/Mushus avatar package structure."
+  default_prompt: "Use $avatar-structure-audit to audit one avatar package against docs/avatar-development-standard.md, identify structure/reference issues, make safe Unity-aware fixes when requested, and verify with compile/tests."
